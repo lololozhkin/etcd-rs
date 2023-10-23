@@ -22,8 +22,8 @@ pub use cluster::{
 };
 pub use kv::{
     CompactRequest, CompactResponse, DeleteRequest, DeleteResponse, KeyRange, KeyValue, KeyValueOp,
-    PutRequest, PutResponse, RangeRequest, RangeResponse, TxnCmp, TxnOp, TxnOpResponse, TxnRequest,
-    TxnResponse,
+    PutRequest, PutResponse, RangeRequest, RangeResponse, SortOrder, TxnCmp, TxnOp, TxnOpResponse,
+    TxnRequest, TxnResponse,
 };
 pub use lease::{
     LeaseGrantRequest, LeaseGrantResponse, LeaseId, LeaseKeepAlive, LeaseKeepAliveRequest,

@@ -7,7 +7,7 @@ mod txn;
 pub use compact::{CompactRequest, CompactResponse};
 pub use delete::{DeleteRequest, DeleteResponse};
 pub use put::{PutRequest, PutResponse};
-pub use range::{RangeRequest, RangeResponse};
+pub use range::{RangeRequest, RangeResponse, SortOrder};
 pub use txn::{TxnCmp, TxnOp, TxnOpResponse, TxnRequest, TxnResponse};
 
 use std::ops::Range;
